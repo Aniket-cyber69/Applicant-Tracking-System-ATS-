@@ -4,55 +4,26 @@ ATS Resume Expert is a web-based application designed to evaluate resumes agains
 <br>
 <h3>Features</h3>
 <ul>
-<li>Resume Evaluation: Provides detailed feedback on how well a resume aligns with a job description.</li>
-<li>ATS Scanning: Simulates ATS functionality to identify keyword matches and suggests improvements.</li>
-<li>Percentage Match: Outputs a percentage match score along with missing keywords and overall evaluation.</li>
+<li><b>Resume Evaluation: Provides detailed feedback on how well a resume aligns with a job description.</b></li>
+<li><b>ATS Scanning: Simulates ATS functionality to identify keyword matches and suggests improvements.</b></li>
+<li><b>Percentage Match: Outputs a percentage match score along with missing keywords and overall evaluation.</b></li>
 </ul>
-Tech Stack
-Frontend: Streamlit
-Backend: Python
-AI Integration: Google Generative AI (Gemini 1.5 Flash)
-PDF Processing: pdf2image, Pillow
-Environment Configuration: dotenv
-Installation
-Clone the repository:
-bash
-Copy code
-git clone https://github.com/your-username/ats-resume-expert.git
-cd ats-resume-expert
-Install the required Python packages:
-bash
-Copy code
-pip install -r requirements.txt
-Set up your environment variables:
-Create a .env file in the project directory.
-Add your Google Generative AI API key:
-makefile
-Copy code
-GOOGLE_API_KEY=your_api_key
-Usage
-Run the application:
-bash
-Copy code
-streamlit run app.py
-Open the app in your browser at http://localhost:8501.
-Enter the job description in the text area.
-Upload a PDF of your resume.
-Choose one of the available actions:
-Tell me about the Resume: Receive a professional evaluation of your resume.
-Percentage Match: Get a match score and recommendations for improvement.
-Project Structure
-bash
-Copy code
-├── app.py             # Main application code
-├── requirements.txt   # List of dependencies
-├── .env               # Environment variables (not included in the repo)
-└── README.md          # Project documentation
-Future Enhancements
+<br>
+<br>
+<h3>Tech Stack</h3>
+<ul>
+<li>Frontend: Streamlit</li>
+<li>Backend: Python</li>
+<li>AI Integration: Google Generative AI (Gemini 1.5 Flash)</li>
+<li>PDF Processing: pdf2image, Pillow</li>
+<li>Environment Configuration: dotenv</li>
+</ul>
+<br>
+<h3>Future Enhancements</h3>
+<br>
 Support for multiple resume formats (e.g., DOCX).
 Integration with additional job boards and ATS systems.
 Enhanced AI models for more nuanced resume evaluation.
-License
-This project is licensed under the MIT License. See the LICENSE file for details.
 
-Would you like to customize this further?
+
+

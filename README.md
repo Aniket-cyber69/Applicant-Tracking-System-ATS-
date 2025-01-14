@@ -9,18 +9,16 @@ ATS Resume Expert is a web-based application designed to evaluate resumes agains
 <li><b>Percentage Match: Outputs a percentage match score along with missing keywords and overall evaluation.</b></li>
 </ul>
 <br>
-<br>
 <h3>Tech Stack</h3>
 <ul>
-<li>Frontend: Streamlit</li>
-<li>Backend: Python</li>
-<li>AI Integration: Google Generative AI (Gemini 1.5 Flash)</li>
-<li>PDF Processing: pdf2image, Pillow</li>
-<li>Environment Configuration: dotenv</li>
+<li><b>Frontend:</b> Streamlit</li>
+<li><b>Backend:</b> Python</li>
+<li><b>AI Integration:</b> Google Generative AI (Gemini 1.5 Flash)</li>
+<li><b>PDF Processing:</b> pdf2image, Pillow</li>
+<li><b>Environment Configuration:</b> dotenv</li>
 </ul>
 <br>
 <h3>Future Enhancements</h3>
-<br>
 Support for multiple resume formats (e.g., DOCX).
 Integration with additional job boards and ATS systems.
 Enhanced AI models for more nuanced resume evaluation.

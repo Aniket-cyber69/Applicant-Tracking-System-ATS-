@@ -20,7 +20,9 @@ ATS Resume Expert is a web-based application designed to evaluate resumes agains
 <br>
 <h3>Future Enhancements</h3>
 Support for multiple resume formats (e.g., DOCX).
+<br>
 Integration with additional job boards and ATS systems.
+<br>
 Enhanced AI models for more nuanced resume evaluation.
 
 
